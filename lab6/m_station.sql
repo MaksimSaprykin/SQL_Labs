@@ -4,13 +4,11 @@ CREATE TABLE m_stations (
   branch_id INT NOT NULL,
   transfer_id INT DEFAULT NULL,
   next INT DEFAULT NULL,
-  previous INT DEFAULT NULL,
-  FOREIGN KEY (branch_id) REFERENCES m_branch(id),
-  FOREIGN KEY (transfer_id) REFERENCES m_transfer(id)
+  previous INT DEFAULT NULL
 );
 
 
-INSERT INTO `m_stations` (`id`, `name`, `branch_id`, `transfer_id`, `next`, `previous`) VALUES
+INSERT INTO m_stations (id, name, branch_id, transfer_id, next, previous) VALUES
 (1,	'Холодна гора',	1,	NULL,	2,	NULL),
 (2,	'Південний вокзал',	1,	NULL,	2,	1),
 (3,	'Центральний ринок',	1,	NULL,	4,	2),
