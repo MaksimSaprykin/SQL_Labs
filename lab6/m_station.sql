@@ -39,9 +39,3 @@ INSERT INTO m_stations (id, name, branch_id, transfer_id, next, previous) VALUES
 (28,	'Архітектора Бекетова',	3,	NULL,	29,	27),
 (29,	'Захисників України',	3,	NULL,	30,	28),
 (30,	'Спортивна',	3,	7,	NULL,	22);
-
-
-
-
-
-
