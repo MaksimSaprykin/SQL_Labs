@@ -1,0 +1,4 @@
+CREATE TABLE n_news_categories (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL
+  );
