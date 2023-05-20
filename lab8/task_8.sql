@@ -66,9 +66,9 @@ CREATE TABLE t_tasks (
 );
 
 INSERT INTO t_tasks (id, name, projects_id, author, description) VALUES
-(1,	'task_1', 1, 1,	'warehouse security'),
-(2,	'task_2', 1, 1,	'put the cheese in storage'),
-(3,	'task_3', 2, 3,	'put cheese under the Christmas tree');
+(1,	'task_1', 1, 1,	'task 1 security'),
+(2,	'task_2', 1, 1,	'task 2 storage'),
+(3,	'task_3', 2, 3,	'task 3 Christmas tree');
 
 
 CREATE TABLE t_task_executors (
